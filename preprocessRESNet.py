@@ -23,12 +23,12 @@ class DeepfakeDataset(Dataset):
         self.labels = []
         self.target_size = target_size
 
-        real_dir = os.path.join(DATADIR, "real")
+        real_dir = os.path.join(DATADIR, "Real")
         real_images = os.listdir(real_dir)
         self.image_paths.extend([os.path.join(real_dir, img) for img in real_images])
         self.labels.extend([0] * len(real_images))  
 
-        fake_dir = os.path.join(DATADIR, "fake")
+        fake_dir = os.path.join(DATADIR, "Fake")
         fake_images = os.listdir(fake_dir)
         self.image_paths.extend([os.path.join(fake_dir, img) for img in fake_images])
         self.labels.extend([1] * len(fake_images))  
