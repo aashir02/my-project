@@ -3,4 +3,4 @@ matplotlib
 streamlit
 torch
 torchvision
-resnetmodel
+-e /path/to/your/resnet_model_directory
