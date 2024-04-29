@@ -3,5 +3,5 @@ matplotlib
 streamlit
 torch
 torchvision
--e git+https://github.com/aashir02/my-project.git
+-e git+https://github.com/aashir02/my-project.git#egg=resnetmodel
 
