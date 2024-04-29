@@ -1,5 +1,4 @@
-Torch
+Pillow
 matplotlib
 streamlit
-PIL
-torchvision
+torch==1.10.1
