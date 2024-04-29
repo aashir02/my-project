@@ -1,4 +1,4 @@
 Pillow
 matplotlib
 streamlit
-torch==1.10.1
+torch
