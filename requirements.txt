@@ -3,4 +3,4 @@ matplotlib
 streamlit
 torch
 torchvision
-resnet_model
+resnetmodel
