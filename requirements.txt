@@ -3,4 +3,5 @@ matplotlib
 streamlit
 torch
 torchvision
--e /path/to/your/resnet_model_directory
+-e git+https://github.com/aashir02/my-project.git
+
